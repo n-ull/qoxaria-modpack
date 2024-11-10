@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "silent_gear"
+	group: "24FB48CEEEE12B55"
+	icon: "silentgear:pickaxe_blueprint"
+	id: "6E21544AAF00626A"
+	images: [
+		{
+			height: 1.0d
+			image: "silentgear:item/template"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "silentgear:item/template"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "silentgear:item/template"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/stick"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/stick"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.5d
+			y: -4.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1EE69BC54C305E50"]
+			description: [
+				"Así como los templates te sirven para crear una herramienta, los blueprint son iguales, pero tienen una característica muy importante y es que no se rompen una vez los usas."
+				"Puedes guardarlos en un libro y mantener tus plantillas para herramientas siempre cerca!"
+			]
+			id: "40C6870220106543"
+			rewards: [{
+				count: 3
+				id: "09A2E224A24F4E7C"
+				item: {
+					Count: 1
+					id: "silentgear:blueprint_package"
+					tag: {
+						silentlib.LootContainer: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 6L
+				id: "6FDBDF68EA0C4815"
+				item: "silentgear:template_board"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"¿Estás cansado de romper tus herramientas?"
+				"Con Silent Gear podrás mantener tus herramientas siempre contigo, mejorarlas y repararlas, lo primero que necesitarás son &lTemplates&r, usalos como si estuvieras creando una herramienta con ellos y te van a dar el patrón que necesitas para crear tu herramienta con el material que quieras."
+				""
+				"Puedes también convertir una herramienta que tengas a una herramienta de Silent Gear simplemente colocandolá en el crafting solita."
+				" "
+			]
+			id: "1EE69BC54C305E50"
+			rewards: [{
+				id: "6D64A9E5EE1B873C"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "046EB3531B3F2EE7"
+				title: "Silent Gear Tips"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["40C6870220106543"]
+			id: "78B78EBBB16B0AC7"
+			tasks: [{
+				id: "4CF3E8F1D280595A"
+				item: "silentgear:pickaxe_blueprint"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["40C6870220106543"]
+			id: "2F9FE375091BDC39"
+			tasks: [{
+				id: "61114A646BFA6479"
+				item: "silentgear:sword_blueprint"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["40C6870220106543"]
+			id: "65DC7FC135B3FE99"
+			tasks: [{
+				id: "748FCF14311677A4"
+				item: "silentgear:axe_blueprint"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["40C6870220106543"]
+			id: "7AF897731B1B5722"
+			tasks: [{
+				id: "1FC6FFB49A3C9F4C"
+				item: "silentgear:shovel_blueprint"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+	]
+	title: "Silent Gear"
+}

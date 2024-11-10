@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "historia"
+	group: "24FB48CEEEE12B55"
+	icon: "minecraft:writable_book"
+	id: "47EECB7B29EE90F1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Fidel Castrati es nuestro vendedor de armas de confianza, prueba comprarle una bolsa de azúcar para ver sus sorpresitas!"]
+		icon_scale: 1.2d
+		id: "3CDFECF0DE292363"
+		rewards: [{
+			count: 8
+			id: "051A38636774D3CD"
+			item: "qoxaria:qoxal"
+			type: "item"
+		}]
+		shape: "hexagon"
+		size: 1.5d
+		subtitle: "El vendedor de Azúcar"
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1822157547
+							-1743175383
+							-1392566843
+							-1833783234
+						]
+						Name: "Castro"
+						Properties: {
+							textures: [{
+								Signature: "t3XAJ2aaKK/+O0PwBjsfv47ld99M9g3Y25XYcKY+D5FFciH/oVyNOA8IqhQqA4cO9ckdEVqGO9kQx5ois+UcWPPzE+7Z3MS8U8TdNwnfGxAK4S0D1JxM/PaDYJCenioiWnAxiYcX7bofemjYyk+VvZZsba5OIfuKO8FuDtM4qroh15Tef1s4LPe4TcIfEbMD8lLDrH2kqkaNcXn2Rx8IKEQNTkIdB62+JCHNxx+10cE1UVQC5Re1e2Si8IlLtLjqPjqAku7PnlerOsMZBep1cucoajyK7n3m6IOBJH9zWXs5vcLqLHiLHBTc5eowzaQh/46xv9VSJERQBWWwsSIuHrMmiH+IZtThIulpILbKBgpz1P4iCQuzzVpkxwjY2igmeyP+EOwlA5kkOXeY0urpR7VbRAp6Tg1SQ63JZxIUs90VgejiwPQ/d4Z9V08C84/DUljELSdDbgel9WX8H2By6OkL/FkIS1sOpoOWssSFxmziNXOQ4LKRAZxQ0oR1O6lH8XkvW5wzlvMny1K2qFMR1vgu7Sj9BtcB8773viXUfHTmpJyaas6u33Y0L1vSWjS2lEd8gprEC3odczH8XOdV10xYQWdAZOm9ugCaXPvMaucPmEnvyLlpWcnF3UlAyIUdFww6eLLKwB7prT5Vi3TcPIVTFpe11zSw4xDQHTmnvx4="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMTE1NTc5OTc1OCwKICAicHJvZmlsZUlkIiA6ICI2YzliZWFlYjk4MTk0MTI5YWNmZjFkYzU5MmIyYjAzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0cm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgwYTNhODVlOGY2ZjA3YzE0OGViM2E1MjMxY2UxZWY3OTEzZjUxODAzMmY5YTFjZjJiNTFiZDk1NDliNzQ5NiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUzYjFhMGRmY2JhZTk1M2NkZWI2ZjJjMmJmNmJmNzk5NDMyMzliMTM3Mjc4MGRhNDRiY2JiMjkyNzMxMzFkYSIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Castro\"}"
+					}
+				}
+			}
+			id: "77A2C4E9E5A66744"
+			title: "Comprale a Fidel"
+			type: "custom"
+		}]
+		title: "Habla con Fidel Castrati"
+		x: -9.0d
+		y: -4.5d
+	}]
+	title: "Historia"
+}

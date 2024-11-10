@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienvenido_a_qoxaria"
+	group: ""
+	icon: "minecraft:oak_sign"
+	id: "5DD2265294C143D7"
+	images: [
+		{
+			height: 2.265625d
+			image: "gui:textures/quest/minecraft_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			height: 16.0d
+			image: "gui:textures/quest/justjhonsito1.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -11.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"¡Te damos la bienvenida a &l&6Qoxaria&r!"
+				""
+				"Descubre nuevas aventuras, explora el mundo y descubre sus misterios, monta dragones, crea tu propio reactor nuclear y más!"
+				""
+				"Tu misión será completar este Quest Book, con cada misión podrás recolectar premios únicos y conforme avanzas los premios serán mejores."
+			]
+			id: "3D867256DB7D7E75"
+			rewards: [{
+				count: 8
+				id: "3C537DBD4F8FC68F"
+				item: "qoxaria:qoxal"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3765318F496B1F20"
+				title: "Bienvenido a Qoxaria"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Los Qoxals son la moneda del servidor, te servirán para comprar múltiples items que te van a servir en tu aventura."
+				""
+				"Visita &6Pueblo Los Qoxitos&r y encontrarás múltiples &atiendas&r donde gastar tus qoxals."
+				""
+				"Para explicarles el valor de un &l&6Qoxal&r, es casi como compararlo con el valor de las esmeraldas, pero un poco mayor, porque la única forma de ganar Qoxals será por medio de loot (matando muchos mobs o encontrandoló en cofres) o completando misiones."
+			]
+			id: "4C76BD11026C34B6"
+			rewards: [{
+				id: "7C889DB5A3727EE1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "334854C9B01D2138"
+				item: "qoxaria:qoxal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+	]
+	title: "Bienvenido a Qoxaria"
+}
