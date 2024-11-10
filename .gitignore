@@ -1,0 +1,13 @@
+/*
+
+!.gitignore
+!/mods
+!/mods/*
+!/kubejs
+!/kubejs/*
+!/pointblank
+!/pointblank/*
+!/config
+!/config/*
+!/easy_npc
+!/easy_npc/*
