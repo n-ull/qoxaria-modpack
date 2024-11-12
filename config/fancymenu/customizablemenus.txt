@@ -9,3 +9,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 net.minecraft.client.gui.screens.multiplayer.SafetyScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
