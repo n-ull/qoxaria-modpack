@@ -1,0 +1,998 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "0D2F22CC4C1ABD8C"
+	icon: {
+		Count: 1
+		id: "relics:bastion_ring"
+		tag: {
+			abilities: {
+				trade: {
+					points: 0
+					stats: {
+						rolls: 0.17136d
+					}
+				}
+			}
+		}
+	}
+	id: "5844A8871336BF19"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79F7F6024179545E"
+			rewards: [{
+				id: "01E490D388B1F00A"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "6903358FFE8C4657"
+				item: {
+					Count: 1
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.0896d
+									freeze: 1.08881d
+									size: 20.36109d
+									stun: 0.03198d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "32CF92516DFAB43D"
+			rewards: [{
+				id: "3F09AFF9DC068238"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3F4EACD513E378CA"
+				item: {
+					Count: 1
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 28.65013d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "48EA99FAD992A4E6"
+			rewards: [{
+				id: "520437D32E498443"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "37DF18C9981A34A0"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 77.14006d
+									speed: 1.11369d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "0BE368007ED68C59"
+			rewards: [{
+				id: "0791E3D01E1B2E2D"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3D9E24604D3B90EF"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.316d
+									slowness: 0.45592d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.67824d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 8.97177d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									charm: 0.5315d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "0B61C64F4DFE4161"
+			rewards: [{
+				id: "5321187AEFC128AD"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "1A7A4B49EF40DBA0"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.25347d
+									distance: 16.52499d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "055355B890D2A422"
+			rewards: [{
+				id: "6E0710EB76A4C9BD"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "62B07B5E830CF550"
+				item: {
+					Count: 1
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 4.51298d
+									speed: 0.04967d
+									step: 1.9607d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "34655AEA3B8DCB69"
+			rewards: [{
+				id: "39BA3AB11C2186F3"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "44F0BE179A255829"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.33449d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "4610D18DBFEBDAD0"
+			rewards: [{
+				id: "47634C20F60EBB62"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "635724D7EE7E7F11"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 13.55075d
+									duration: 4.99753d
+									multiplier: 0.417d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.91893d
+									duration: 11.89273d
+									radius: 4.20956d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 4.51828d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "23FE94C041B3B27B"
+			rewards: [{
+				id: "0C7EEBFEBB9878FA"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "03D2B5875AFF6189"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 40.52511d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "0294529AD0BDEF40"
+			rewards: [{
+				id: "276EC5F284F3608E"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "106F2968B41613B0"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.04318d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 23.4789d
+									speed: 0.00547d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 23.55537d
+									speed: 0.00912d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "29FD4A21C417B376"
+			rewards: [{
+				id: "791F110D9556A692"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3809D686E2FA2767"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 115.66205d
+									distance: 645.51106d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "02B7B4FCF5E146C7"
+			rewards: [{
+				id: "7D1DE6B6C8BF4D41"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "710C6969CE3D23FD"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 2.34224d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "63BC7F43BC0EED4A"
+			rewards: [{
+				id: "3C9CB71801DEBD05"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "412FA8B336026401"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.19928d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 0.79603d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "636507ACBBD3B551"
+			rewards: [{
+				id: "5C4DD414E343FDB7"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "1ACC14E59CB97E7E"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.81772d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 2.99984d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "1CFCBEBDB7168F7E"
+			rewards: [{
+				id: "28FBB5CBF118DDF6"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "6172755EAF16F5AC"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.19996d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 46.69858d
+									speed: 0.0166d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "7C4F32927C9C6564"
+			rewards: [{
+				id: "0AE54F7BE6022B3A"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "49C103DEA29D002A"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 4.08378d
+									size: 3.10905d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.54513d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "3381020B8F85D8AB"
+			rewards: [{
+				id: "6FC0849A0E78C556"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "4819568557FB385E"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.06842d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.68078d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "6C582760385EA13C"
+			rewards: [{
+				id: "4EE816713B5000E6"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "6F6B070C9C379C31"
+				item: {
+					Count: 1
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.04609d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "7D302A0F111164FF"
+			rewards: [{
+				id: "52E449F3C252A2E7"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3842026F7C1F72E3"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							belief: {
+								points: 0
+								stats: {
+									amount: 0.14444d
+									capacity: 8.88521d
+									count: 2.19384d
+									radius: 3.88463d
+								}
+							}
+							blessing: {
+								points: 0
+								stats: {
+									consumption: 6.18276d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+							repentance: {
+								points: 0
+								stats: {
+									damage: 0.14922d
+									radius: 3.62011d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "3488B04354EF969A"
+			rewards: [{
+				id: "2E69798ACB8CFB51"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3FABFCFF74D40AD4"
+				item: {
+					Count: 1
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 4.38507d
+									chance: 0.05256d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.06352d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.14781d
+									chance: 0.13065d
+									size: 0.09431d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 11.06282d
+									damage: 0.33234d
+									duration: 2.31646d
+									size: 0.3263d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "5942F8756C063345"
+			rewards: [{
+				id: "25430AD66006D627"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "212ADF2BC2C60F41"
+				item: {
+					Count: 1
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 26.23565d
+									time: 7.99276d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "1C308CFF3A887170"
+			rewards: [{
+				id: "3AD213B487B1B59D"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "03E841A9F7053B78"
+				item: {
+					Count: 1
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 2.55988d
+								}
+							}
+						}
+						pos: "[\"-329.2,-53.5,-185.1\"]"
+						world: "minecraft:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "00E90C58A5006D4B"
+			rewards: [{
+				id: "4BE1DE9995BB76C0"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "2E2B9D9759596166"
+				item: {
+					Count: 1
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.41758d
+									damage: 3.54921d
+									radius: 3.28404d
+									recharge: 21.52108d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 0.99832d
+									speed: 18.47382d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "72EFF2E38D6957B2"
+			rewards: [{
+				id: "73F529603965FAB1"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3099B9D6BE3773D9"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 23.26676d
+									speed: 0.00216d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "2A24F870297662D7"
+			rewards: [{
+				id: "096029B9586C0ADB"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "2A8DDBA0BA1A3BFE"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 55.92609d
+									damage: 0.32739d
+									stun: 0.07907d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "1CD124B4F80427E7"
+			rewards: [{
+				id: "6F733453D7BBBA64"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "3DFBC5CDF6B72412"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00659d
+									heal: 1.1E-4d
+									movement_speed: 0.01713d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.05883d
+									duration: 2.40533d
+									incoming_damage: 0.03802d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 16.21636d
+									damage: 0.15958d
+									distance: 4.8044d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "3C7276AAE7EE5F62"
+			rewards: [{
+				id: "6815B1F75B7A622E"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "5BA820B59869C9C2"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.5013d
+									distance: 15.74037d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.70415d
+									speed: 0.11491d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "70694225707B4579"
+			rewards: [{
+				id: "1D8A18BBBD27935C"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "6BCAB0555F3133BA"
+				item: {
+					Count: 1
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 22.17443d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+	]
+	title: "Relics"
+}

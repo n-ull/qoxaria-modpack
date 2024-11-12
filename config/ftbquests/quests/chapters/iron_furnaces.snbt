@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "24FB48CEEEE12B55"
+	icon: "ironfurnaces:iron_furnace"
+	id: "4B8C8E4403D96A21"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["42E8843DFBEF5083"]
+			id: "05D8DB4954C4EF7F"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "0547349034A945FA"
+				item: "ironfurnaces:million_furnace"
+				type: "item"
+			}]
+			x: 1.5357142857142847d
+			y: -1.4821428571428612d
+		}
+		{
+			id: "40405A98049858DF"
+			tasks: [{
+				id: "1B22CE477A41FB8C"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			id: "30FE546E1CFCCCC1"
+			tasks: [{
+				id: "4E043093161092C0"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "490D51EEE8961B42"
+			tasks: [{
+				id: "5AAC36E88CA8049C"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "19F03F3F37678E82"
+			tasks: [{
+				id: "07A48202443410F7"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "344E771BA70AD649"
+			tasks: [{
+				id: "1D09F0B21A1F6094"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "6A03A33C6278F622"
+			tasks: [{
+				id: "2C7865AFD148889F"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "42E8843DFBEF5083"
+			tasks: [{
+				id: "6161D913A8C47B5F"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "092198E2D5DBFCA3"
+			tasks: [{
+				id: "1C754B12A08A1844"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "152C245EA069F901"
+			tasks: [{
+				id: "2BA7A17C846EE865"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "0AE3C1162C76634A"
+			tasks: [{
+				id: "724F1A7A7F798A04"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "645D4F499AFA366C"
+			tasks: [{
+				id: "7277E308051B0EE4"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "327A1F1CB8946D49"
+			tasks: [{
+				id: "6DAC196414648095"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "1E78A1CFEC4C40FD"
+			tasks: [{
+				id: "1B5F758EF86FD099"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "78A0C944A06599D2"
+			tasks: [{
+				id: "1672F6598A37E0BF"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "335A542610997716"
+			tasks: [{
+				id: "65FDB36E38C9A838"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+	]
+	title: "Iron Furnaces"
+}

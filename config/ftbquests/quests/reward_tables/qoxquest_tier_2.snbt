@@ -1,0 +1,11 @@
+{
+	id: "57919E05AF0B1C36"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "qoxaria:applecite_nugget" }
+		{ count: 2, item: "minecraft:diamond_block", random_bonus: 3 }
+		{ item: "minecraft:netherite_block" }
+	]
+	title: "Qoxquest Tier 2"
+}

@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas_de_fuego"
+	group: "0D2F22CC4C1ABD8C"
+	icon: "pointblank:glock17"
+	id: "166AFDCE7B4CFE62"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7813405CB8C83496"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24384D223DF6CEFD"
+					table_id: 571305808173712429L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "222B806F8ECF1C2F"
+					item: "pointblank:ammo9mm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57EA424B5BEB7E9F"
+				item: "pointblank:glock17"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "02B2E3EE21A8A43A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B607FE0BA36EE3C"
+				table_id: 6309998300171541558L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BAFBE2AF0885999"
+				item: "pointblank:deserteagle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "3D22B1AB860BE82E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B123F836FCAF862"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
+			tasks: [{
+				id: "136638C4223D3499"
+				item: "pointblank:tti_viper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			icon: "qoxaria:sugar_bag_tier1"
+			id: "16ADE09943385A06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A032B9599363EF"
+				table_id: 8919896848438367757L
+				type: "loot"
+			}]
+			subtitle: "Traen sorpresitas"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "73411D13E7964405"
+				item: { Count: 8, id: "qoxaria:qoxal" }
+				type: "item"
+			}]
+			title: "Sugar Bags"
+			x: -0.5d
+			y: -6.0d
+		}
+	]
+	title: "Armas de Fuego"
+}

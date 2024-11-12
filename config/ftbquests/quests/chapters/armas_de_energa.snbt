@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas_de_energa"
+	group: "467521D5E37CD111"
+	icon: "pointblank:doom_bfg9000"
+	id: "545252BA2CC46036"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"71D163045C99C2C7"
+				"240CC8538EA67076"
+				"47C7842DFFD4C52F"
+			]
+			id: "747485DE73651487"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "363142D1C082BAC7"
+				item: {
+					Count: 1
+					id: "pointblank:doom_gausscannon"
+					tag: {
+						GeckoLibID: 35L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1073149605
+							-969327768
+							-1465952531
+							-1406944168
+						]
+						lid: -5431300355697072208L
+						mid: -5668427151013295279L
+						sa: { }
+						seed: -1883787375562806607L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "240CC8538EA67076"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19F0DC628676AB44"
+				table_id: 6309998300171541558L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3C2FC5FEFCD96CB4"
+				item: {
+					Count: 1
+					id: "pointblank:doom_plasmapistol"
+					tag: {
+						GeckoLibID: 30L
+						aim: 0b
+						ammo: 2147483647
+						ammox: { }
+						fmid: [I;
+							-756758649
+							-653707956
+							-1868707693
+							-1202976019
+						]
+						lid: -4781475231862326365L
+						mid: -7589188119640653374L
+						seed: -8129960283459415193L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "47C7842DFFD4C52F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60FF5313E480336E"
+					table_id: 571305808173712429L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "386F24976D27F762"
+					table_id: 6309998300171541558L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1D9938E49A4B88D7"
+				item: {
+					Count: 1
+					id: "pointblank:doom_plasmagun"
+					tag: {
+						GeckoLibID: 33L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-7919997
+							-1556267027
+							-2105191448
+							-235528467
+						]
+						lid: -5822324726399764195L
+						mid: -747281709140325668L
+						seed: -3117352795443512087L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "71D163045C99C2C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D18A15C238A6F03"
+					table_id: 571305808173712429L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AB0B072F00DB862"
+					table_id: 6309998300171541558L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2909606D6A47BD95"
+				item: {
+					Count: 1
+					id: "pointblank:doom_plasmachaingun"
+					tag: {
+						GeckoLibID: 34L
+						aim: 0b
+						ammo: 130
+						ammox: { }
+						fmid: [I;
+							-26990626
+							779891721
+							-1463176620
+							-911015113
+						]
+						lid: -8323298019182638043L
+						mid: 7539770878588765911L
+						seed: 7115224754939294342L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+	]
+	title: "Armas Ancestrales"
+}

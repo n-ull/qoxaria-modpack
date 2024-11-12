@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "0D2F22CC4C1ABD8C"
+	icon: "create:crushing_wheel"
+	id: "0120FB4D6872E02F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create"
+}

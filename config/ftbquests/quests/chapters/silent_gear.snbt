@@ -60,13 +60,7 @@
 			rewards: [{
 				count: 3
 				id: "09A2E224A24F4E7C"
-				item: {
-					Count: 1
-					id: "silentgear:blueprint_package"
-					tag: {
-						silentlib.LootContainer: { }
-					}
-				}
+				item: "silentgear:blueprint_paper"
 				type: "item"
 			}]
 			tasks: [{
@@ -106,6 +100,11 @@
 		{
 			dependencies: ["40C6870220106543"]
 			id: "78B78EBBB16B0AC7"
+			rewards: [{
+				id: "145080F8BDBC143A"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "4CF3E8F1D280595A"
 				item: "silentgear:pickaxe_blueprint"
@@ -117,6 +116,11 @@
 		{
 			dependencies: ["40C6870220106543"]
 			id: "2F9FE375091BDC39"
+			rewards: [{
+				id: "5E1C4C09526DDFBA"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "61114A646BFA6479"
 				item: "silentgear:sword_blueprint"
@@ -128,6 +132,11 @@
 		{
 			dependencies: ["40C6870220106543"]
 			id: "65DC7FC135B3FE99"
+			rewards: [{
+				id: "5CC75DAA65107BFE"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "748FCF14311677A4"
 				item: "silentgear:axe_blueprint"
@@ -139,6 +148,11 @@
 		{
 			dependencies: ["40C6870220106543"]
 			id: "7AF897731B1B5722"
+			rewards: [{
+				id: "3F08810255BF43CD"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "1FC6FFB49A3C9F4C"
 				item: "silentgear:shovel_blueprint"
@@ -146,6 +160,43 @@
 			}]
 			x: -12.0d
 			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7AF897731B1B5722"
+				"65DC7FC135B3FE99"
+				"78B78EBBB16B0AC7"
+				"2F9FE375091BDC39"
+			]
+			description: [
+				"Con los kits podrás reparar tus Silent Gears, simplemente tienes que ponerlos junto al material del tier de tu herramienta"
+				""
+				"Puedes ver el tier de tu herramienta al tocar CTRL encima de ella en el inventario, para &cTier 1&r puedes usar Cobblestone u otros materiales."
+				""
+				"Lo importante es que uses materiales del mismo Tier, no hace falta que sea el mismo material."
+				""
+				"Una vez introducido el material en tu Kit, puedes usar el Kit con tu Herramienta y repararla."
+			]
+			id: "0BD6C7916FE573F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "532F262DC22C9B23"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
+			tasks: [{
+				id: "728FFA76D327ABA4"
+				item: {
+					Count: 1
+					id: "silentgear:very_crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
 		}
 	]
 	title: "Silent Gear"

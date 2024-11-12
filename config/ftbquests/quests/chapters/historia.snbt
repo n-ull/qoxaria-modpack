@@ -1,57 +1,138 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "historia"
 	group: "24FB48CEEEE12B55"
 	icon: "minecraft:writable_book"
 	id: "47EECB7B29EE90F1"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["Fidel Castrati es nuestro vendedor de armas de confianza, prueba comprarle una bolsa de azúcar para ver sus sorpresitas!"]
-		icon_scale: 1.2d
-		id: "3CDFECF0DE292363"
-		rewards: [{
-			count: 8
-			id: "051A38636774D3CD"
-			item: "qoxaria:qoxal"
-			type: "item"
-		}]
-		shape: "hexagon"
-		size: 1.5d
-		subtitle: "El vendedor de Azúcar"
-		tasks: [{
-			icon: {
-				Count: 1
-				id: "minecraft:player_head"
-				tag: {
-					SkullOwner: {
-						Id: [I;
-							1822157547
-							-1743175383
-							-1392566843
-							-1833783234
-						]
-						Name: "Castro"
-						Properties: {
-							textures: [{
-								Signature: "t3XAJ2aaKK/+O0PwBjsfv47ld99M9g3Y25XYcKY+D5FFciH/oVyNOA8IqhQqA4cO9ckdEVqGO9kQx5ois+UcWPPzE+7Z3MS8U8TdNwnfGxAK4S0D1JxM/PaDYJCenioiWnAxiYcX7bofemjYyk+VvZZsba5OIfuKO8FuDtM4qroh15Tef1s4LPe4TcIfEbMD8lLDrH2kqkaNcXn2Rx8IKEQNTkIdB62+JCHNxx+10cE1UVQC5Re1e2Si8IlLtLjqPjqAku7PnlerOsMZBep1cucoajyK7n3m6IOBJH9zWXs5vcLqLHiLHBTc5eowzaQh/46xv9VSJERQBWWwsSIuHrMmiH+IZtThIulpILbKBgpz1P4iCQuzzVpkxwjY2igmeyP+EOwlA5kkOXeY0urpR7VbRAp6Tg1SQ63JZxIUs90VgejiwPQ/d4Z9V08C84/DUljELSdDbgel9WX8H2By6OkL/FkIS1sOpoOWssSFxmziNXOQ4LKRAZxQ0oR1O6lH8XkvW5wzlvMny1K2qFMR1vgu7Sj9BtcB8773viXUfHTmpJyaas6u33Y0L1vSWjS2lEd8gprEC3odczH8XOdV10xYQWdAZOm9ugCaXPvMaucPmEnvyLlpWcnF3UlAyIUdFww6eLLKwB7prT5Vi3TcPIVTFpe11zSw4xDQHTmnvx4="
-								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMTE1NTc5OTc1OCwKICAicHJvZmlsZUlkIiA6ICI2YzliZWFlYjk4MTk0MTI5YWNmZjFkYzU5MmIyYjAzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0cm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgwYTNhODVlOGY2ZjA3YzE0OGViM2E1MjMxY2UxZWY3OTEzZjUxODAzMmY5YTFjZjJiNTFiZDk1NDliNzQ5NiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUzYjFhMGRmY2JhZTk1M2NkZWI2ZjJjMmJmNmJmNzk5NDMyMzliMTM3Mjc4MGRhNDRiY2JiMjkyNzMxMzFkYSIKICAgIH0KICB9Cn0="
-							}]
+	quests: [
+		{
+			description: ["Fidel Castrati es nuestro vendedor de armas de confianza, prueba comprarle una bolsa de azúcar para ver sus sorpresitas!"]
+			icon_scale: 1.2d
+			id: "3CDFECF0DE292363"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "051A38636774D3CD"
+				item: "qoxaria:qoxal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "El vendedor de Azúcar"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1822157547
+								-1743175383
+								-1392566843
+								-1833783234
+							]
+							Name: "Castro"
+							Properties: {
+								textures: [{
+									Signature: "t3XAJ2aaKK/+O0PwBjsfv47ld99M9g3Y25XYcKY+D5FFciH/oVyNOA8IqhQqA4cO9ckdEVqGO9kQx5ois+UcWPPzE+7Z3MS8U8TdNwnfGxAK4S0D1JxM/PaDYJCenioiWnAxiYcX7bofemjYyk+VvZZsba5OIfuKO8FuDtM4qroh15Tef1s4LPe4TcIfEbMD8lLDrH2kqkaNcXn2Rx8IKEQNTkIdB62+JCHNxx+10cE1UVQC5Re1e2Si8IlLtLjqPjqAku7PnlerOsMZBep1cucoajyK7n3m6IOBJH9zWXs5vcLqLHiLHBTc5eowzaQh/46xv9VSJERQBWWwsSIuHrMmiH+IZtThIulpILbKBgpz1P4iCQuzzVpkxwjY2igmeyP+EOwlA5kkOXeY0urpR7VbRAp6Tg1SQ63JZxIUs90VgejiwPQ/d4Z9V08C84/DUljELSdDbgel9WX8H2By6OkL/FkIS1sOpoOWssSFxmziNXOQ4LKRAZxQ0oR1O6lH8XkvW5wzlvMny1K2qFMR1vgu7Sj9BtcB8773viXUfHTmpJyaas6u33Y0L1vSWjS2lEd8gprEC3odczH8XOdV10xYQWdAZOm9ugCaXPvMaucPmEnvyLlpWcnF3UlAyIUdFww6eLLKwB7prT5Vi3TcPIVTFpe11zSw4xDQHTmnvx4="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMTE1NTc5OTc1OCwKICAicHJvZmlsZUlkIiA6ICI2YzliZWFlYjk4MTk0MTI5YWNmZjFkYzU5MmIyYjAzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0cm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgwYTNhODVlOGY2ZjA3YzE0OGViM2E1MjMxY2UxZWY3OTEzZjUxODAzMmY5YTFjZjJiNTFiZDk1NDliNzQ5NiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUzYjFhMGRmY2JhZTk1M2NkZWI2ZjJjMmJmNmJmNzk5NDMyMzliMTM3Mjc4MGRhNDRiY2JiMjkyNzMxMzFkYSIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Castro\"}"
 						}
 					}
-					display: {
-						Name: "{\"text\":\"Castro\"}"
+				}
+				id: "77A2C4E9E5A66744"
+				tags: ["quest_talk_fidel"]
+				title: "Habla con Fidel"
+				type: "custom"
+			}]
+			title: "Habla con Fidel Castrati"
+			x: -10.357142857142847d
+			y: -4.517857142857142d
+		}
+		{
+			icon_scale: 1.2d
+			id: "31C8F04D33CA8FEF"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								749906302
+								108283032
+								-1557212220
+								764805430
+							]
+							Name: "Frodo"
+							Properties: {
+								textures: [{
+									Signature: "hnvCHLASuJcQypfGPtSTq+0ZlkthQCZg5AWIoOQkywZIeMWD4QVeFUu7WoaBNavOmbFnk6LXE6viwdxLKcReER/Hdx7K8jofEJ0i+9KVq/SQ3Gq4NBBKvVxIHFzMwFQ1oE7EZsnHTiDEWutXPvAtAhf5asY33soGRl2nxNqfqMV0WgZXQWU8t3XsdpJrKylvQbAGiuefU8ZesEopxD3J3q5NmCQ4IZkciq+1K2juKmdONw4r55U8YAHczQSd8bkEWc6hZPqV5gTaUlgpKDpgfudz/K1irXsdAsRbLfw0ck5O/b3EHMXjQVLfzqA89Z57gvOT95i9PkFiOjMYGnh6ezrtvlml4j/WA82wKz7K7BxbosDzBldm40lCdhk2n43KRosK9l75f99vS2vfS2nYcN+OPMqbLjRnEoA+F6TGg2I1F5qIy1O3H3gF/7j7NwFRHgMK75QIBrhwI9scPVkLtyHTWFatXjruh+NpsVROWWnXM2oMXWYBMV3eUXVogDLq6Auu16n1DKA8oyupSByfCLs8K+5m8XY8v8/fWyF+TDhEP+wa8ajP7Wtd83DOSBFBO3GFryOsQGyK9hZytAR8ZOhjrxgo6AmzNcodVx/uJMnB/IWpAGI/1Ay2ekJsyv0KdKcIk7Ddk4VIhzmBQhaWENinn6ETWqfbt/HdsCQsMF0="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMTQxODI3Mzc1MywKICAicHJvZmlsZUlkIiA6ICIyY2IyYTk3ZTA2NzQ0NDk4YTMyZWQzYzQyZDk2MDEzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm9kbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMjZmY2YyYmJlYjU3ZDVmOTI5Mzg5YjdmOGFjNzM1MmU4YzU2MmRkMDNjZGMzZGY3NWM2ZTg5MWNiOWQ5MzU0IgogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
 					}
 				}
-			}
-			id: "77A2C4E9E5A66744"
-			title: "Comprale a Fidel"
-			type: "custom"
-		}]
-		title: "Habla con Fidel Castrati"
-		x: -9.0d
-		y: -4.5d
-	}]
+				id: "0A1A4B5DD55D9B3F"
+				tags: ["quest_talk_frodo"]
+				title: "Habla con Frodo"
+				type: "custom"
+			}]
+			x: -9.714285714285701d
+			y: -5.696428571428573d
+		}
+		{
+			icon_scale: 1.2d
+			id: "7D612082809DC655"
+			optional: true
+			rewards: [{
+				id: "1FDD01C2589AEE2E"
+				item: "qoxaria:moqox"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1147972699
+								-266254754
+								-1334293556
+								-1724066
+							]
+							Name: "JustJhonsito"
+							Properties: {
+								textures: [{
+									Signature: "J67nCvQ12hk3wEouFR5tf/wJlFjEfwTh7arAWFgl2ui24cOGT/wD+hR9+UeRdW7TfeEf72VEfNH3dKNfDOFW2pJ+SkpLkyDgvqj4/q+OJxvcix7biMrQ7v964wrCBEmFtF+fTvKL10w5fRSIuWhFKROCTYOiDuLQkdeBBmZH1TgRQciWnB+n3juxuja01UMaRFb6s8eyEeyDUXgR2/7ZYdfkzPbFwsjOb7MnEtL7D3KLgGzDVmuHRwdi8D5r2XTSp0Zgmg2U9LVrSmg2l0kPFNDVm/Cz6GbqZa0WjocYdjEsccU9ZsFWww4REuy3G7Iz3ARYDOm0W/Nl1VbvkyQC7NFV/WWpDmrJHwCetYuClNh5rY12z3bSGERRNOuovKNXt5o1VSiMCYqOoTax6hCwml4eRzrNF13H5Q5mbde4rKyL4JnEG7vLzOngb6prXvwVNSy6+DA45j5jiIynJtc+45vZ3UBJaixZhGnaHBTHAitHlUuFrwJqGQhaWuCD23Vjrzlp+LOqXF1kjCTC/OQCn59D59ejZPrTABT2GTD/s08z9CxL8ke5m4AVZ05CkMfk8OvvDHX0Qb+YSr/Orj5ZtAu0C6mF0P51igHUDPJzI/XizInLyBvc7fXxwfPgAZ7/137ndPdMp6mDzMqBP6ftNAzmxSA0Ymk1jqHANm4lUyk="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMTQxOTU1ODExMSwKICAicHJvZmlsZUlkIiA6ICI0NDZjYWM1YmYwMjE0NjVlYjA3ODRiY2NmZmU1YjE1ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKdXN0SmhvbnNpdG8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UzMmM1OWNhNDAwMDc3NzNkNzI2Y2FjNWRlMDVlZTg1ZDc0OGM4NzI4MTJiMzBjMjc4MzdkNWU3ZmE3Yjk3MiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				id: "0E8AF1BE33D90038"
+				tags: ["quest_talk_qox"]
+				title: "Habla con el Rey Qox"
+				type: "custom"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+	]
 	title: "Historia"
 }

@@ -1,10 +1,18 @@
 ServerEvents.recipes(e => {
     e.remove({ mod: 'pointblank' });
+    e.remove({ mod: 'waterframes' });
 
     let remove_recipes = ['mekaweapons:bow_riser', 'mekaweapons:mekatana', 'mekanism:atomic_disassembler', 'ironfurnaces:rainbow_core', 'mekanism:teleportation_core'];
 
     remove_recipes.forEach(recipe => {
         e.remove(recipe);
+    });
+
+    /* Basic Control Circuit */
+    e.remove({ output: 'mekanism:basic_control_circuit' });
+    e.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit', 'qoxaria:raw_qoxilite', {
+        infuse_type: 'mekanism:redstone',
+        amount: 10
     });
 
     /* Meka Bow Riser */
@@ -13,7 +21,7 @@ ServerEvents.recipes(e => {
         'CDC'
     ], {
         A: 'mekanism:ultimate_control_circuit',
-        B: 'qoxaria:applecite',
+        B: 'qoxaria:applecite_nugget',
         C: 'mekanism:ingot_refined_obsidian',
         D: 'mekanism:alloy_atomic'
     });
@@ -23,11 +31,11 @@ ServerEvents.recipes(e => {
         'ABA',
         'CDC',
         'EFE'
-    ],{
+    ], {
         A: 'mekanism:ultimate_control_circuit',
         B: 'mekaweaponsz:katana_blade',
         C: 'mekanism:hdpe_sheet',
-        D: 'qoxaria:applecite',
+        D: 'qoxaria:applecite_nugget',
         E: 'mekanism:pellet_polonium',
         F: 'mekanism:basic_induction_cell'
     })
@@ -40,7 +48,7 @@ ServerEvents.recipes(e => {
     ], {
         A: 'mekanism:alloy_infused',
         B: 'mekanism:energy_tablet',
-        C: 'qoxaria:applecite',
+        C: 'qoxaria:applecite_nugget',
         D: 'mekanism:ingot_refined_obsidian'
     })
 
@@ -54,7 +62,7 @@ ServerEvents.recipes(e => {
         B: 'minecraft:orange_stained_glass',
         C: 'minecraft:yellow_stained_glass',
         D: 'ironfurnaces:netherite_furnace',
-        E: 'qoxaria:applecite',
+        E: 'qoxaria:applecite_nugget',
         F: 'minecraft:blue_stained_glass',
         G: 'minecraft:purple_stained_glass',
         H: 'minecraft:magenta_stained_glass'
@@ -69,7 +77,7 @@ ServerEvents.recipes(e => {
         A: 'minecraft:lapis_lazuli',
         B: 'mekanism:alloy_atomic',
         C: 'minecraft:gold_ingot',
-        D: 'qoxaria:applecite'
+        D: 'qoxaria:applecite_nugget'
     });
 
 });

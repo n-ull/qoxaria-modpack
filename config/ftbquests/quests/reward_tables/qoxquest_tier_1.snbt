@@ -1,0 +1,22 @@
+{
+	id: "07EDAF9B0A4FC42D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "qoxaria:qoxal", random_bonus: 4, weight: 3.0f }
+		{ count: 4, item: "minecraft:iron_block", random_bonus: 2, weight: 2.0f }
+		{ count: 4, item: "minecraft:gold_block", random_bonus: 2, weight: 2.0f }
+		{ count: 6, item: "minecraft:redstone_block", random_bonus: 2, weight: 2.0f }
+		{ count: 4, item: "minecraft:emerald_block", weight: 0.5f }
+		{ item: "minecraft:diamond_block", random_bonus: 1, weight: 0.4f }
+		{ item: "qoxaria:moqox", weight: 0.1f }
+		{ item: "pointblank:m9", weight: 0.6f }
+		{ count: 6, item: "qoxaria:raw_qoxilite" }
+		{ count: 16, item: "minecraft:egg", weight: 2.0f }
+		{ item: "sophisticatedbackpacks:gold_backpack" }
+		{ count: 32, item: "farmersdelight:salmon_roll" }
+		{ item: "iceandfire:dragonegg_sapphire" }
+		{ item: "iceandfire:dragonegg_red" }
+	]
+	title: "Qoxquest Tier 1"
+}

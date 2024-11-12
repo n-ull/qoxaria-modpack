@@ -35,21 +35,31 @@
 				"Tu misión será completar este Quest Book, con cada misión podrás recolectar premios únicos y conforme avanzas los premios serán mejores."
 			]
 			id: "3D867256DB7D7E75"
-			rewards: [{
-				count: 8
-				id: "3C537DBD4F8FC68F"
-				item: "qoxaria:qoxal"
-				type: "item"
-			}]
-			shape: "diamond"
+			rewards: [
+				{
+					count: 8
+					id: "3C537DBD4F8FC68F"
+					item: "qoxaria:qoxal"
+					type: "item"
+				}
+				{
+					description: ""
+					icon: "minecraft:potato"
+					id: "1E1B85FD0BFC5CD4"
+					team_reward: false
+					title: "Eres un puto!!!"
+					type: "toast"
+				}
+			]
+			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
 				id: "3765318F496B1F20"
 				title: "Bienvenido a Qoxaria"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -3.107142857142861d
+			y: -3.482142857142854d
 		}
 		{
 			description: [
@@ -72,6 +82,63 @@
 			}]
 			x: -2.5d
 			y: -5.0d
+		}
+		{
+			description: ["Para hacer construcciones más bonitas, te recomendamos el uso de Chisel, para darle formas diferentes a los bloques que ya conoces."]
+			id: "7D7E143B93C32351"
+			optional: true
+			rewards: [{
+				id: "1A38B6A1D6059F8C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7375F0CEA15B9D48"
+				item: "chisel:chisel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"El Reino de Qoxaria es libre, el Rey Qox decidió que no cobrará impuestos y puedes tomar las tierras a tu gusto siempre y cuando no esté tomada por otro."
+				""
+				"Presiona M y podrás ver el Mapa, a continuación en la esquina superior izquierda verás un botón para poder abrir la interfaz para poder tomar un Chunk, puedes tomar hasta 8 chunks."
+			]
+			icon: "minecraft:grass_block"
+			id: "56CB0775E8BAF1FC"
+			optional: true
+			tasks: [{
+				id: "324A888D16FAC47E"
+				title: "Protege tus tierras!"
+				type: "checkmark"
+			}]
+			x: -1.500000000000007d
+			y: -2.732142857142861d
+		}
+		{
+			description: ["Puedes crear una Construction Wand para construir más rápido!"]
+			id: "17FAC48E372E6FCD"
+			rewards: [{
+				id: "66B8FE993FAA43B2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4C6C758F3D55F937"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
 		}
 	]
 	title: "Bienvenido a Qoxaria"

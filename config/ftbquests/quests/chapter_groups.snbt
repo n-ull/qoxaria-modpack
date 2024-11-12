@@ -1,3 +1,7 @@
 {
-	chapter_groups: [{ id: "24FB48CEEEE12B55", title: "Capitulo 1: Lo Básico" }]
+	chapter_groups: [
+		{ id: "24FB48CEEEE12B55", title: "Capitulo 1: Lo Básico" }
+		{ id: "0D2F22CC4C1ABD8C", title: "Capitulo 2: Magia y Tecnología" }
+		{ id: "467521D5E37CD111", title: "Capitulo 3: Tecnología Ancestral" }
+	]
 }

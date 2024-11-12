@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "0D2F22CC4C1ABD8C"
+	icon: "ars_nouveau:novice_spell_book"
+	id: "693D9EA08413E4F2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "2FF9C80A9AD95DBB"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "08F9EBE0DC19FFB1"
+			table_id: 571305808173712429L
+			type: "random"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		tasks: [{
+			id: "754B35086A4BDAD4"
+			item: "ars_nouveau:novice_spell_book"
+			type: "item"
+		}]
+		x: -6.0d
+		y: -8.0d
+	}]
+	title: "Ars Nouveau"
+}

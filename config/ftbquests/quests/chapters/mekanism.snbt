@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "0D2F22CC4C1ABD8C"
+	icon: "mekanism:metallurgic_infuser"
+	id: "749B8D0FAA8DFD56"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Lo básico en Mekanism es primero hacer el Metallurgic Infuser, te servirá para crear los componentes para tus siguientes máquinas."
+				""
+				"También necesitaras algún generador para más eficiencia, pero puedes usar Redstone como energía."
+			]
+			id: "4515E13509628D3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35FDACA9CA2BE6CF"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B8AAD51030B6553"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4515E13509628D3A"]
+			description: ["Para crear un control básico de circuito necesitarás Qoxilite, es un mineral que escasea en estos tiempos."]
+			id: "092A4FEA3A20F7DF"
+			rewards: [{
+				count: 4
+				id: "0AF102B75DC6FDF9"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36A8D244ED7B0DC2"
+				item: "qoxaria:raw_qoxilite"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "6DB0C1448D8E296C"
+			tasks: [{
+				id: "766D4FA651D80CC9"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "59CBAB10EA5AD110"
+			tasks: [{
+				id: "7654741BD59CA511"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "77EA6FA5387899DE"
+			tasks: [{
+				id: "5C32991E7AADBEBA"
+				item: "mekanism:basic_crushing_factory"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "795E8AC9B23CC12D"
+			tasks: [{
+				id: "3F47CE54BEC370BE"
+				item: "mekanism:basic_compressing_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "366D8BC377FEFE86"
+			tasks: [{
+				id: "0B1AF6ADA8A7D797"
+				item: "mekanism:basic_purifying_factory"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "2FADC6B43AC5C212"
+			tasks: [{
+				id: "2BD962B1266A7668"
+				item: "mekanism:basic_injecting_factory"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "4D0586AF0A14CD0D"
+			tasks: [{
+				id: "3937CB5E78970112"
+				item: "mekanism:basic_infusing_factory"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "63F27872D4799078"
+			tasks: [{
+				id: "393D95A7165AD3DB"
+				item: "mekanism:basic_sawing_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "0F06B2C543068EBF"
+			tasks: [{
+				id: "6C1028E1E22E1BB9"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "62C3131C465F3D3E"
+			tasks: [{
+				id: "4191A5D456DE5233"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "2B30392A7E191798"
+			tasks: [{
+				id: "3101CA70A31655E0"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "167E7F62B4DA5E84"
+			tasks: [{
+				id: "5D45937D63D17380"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "1E8BE703C3F09DAA"
+			tasks: [{
+				id: "74A5B8F12BD9C7B4"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "719887B80D453F44"
+			tasks: [{
+				id: "3259D3DC86A353DC"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "27B83B98782545C9"
+			tasks: [{
+				id: "3078341B6514DF73"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "7FDC74EDF47A4253"
+			tasks: [{
+				id: "58A658507F0DA8E4"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "467BC1CD73AD4776"
+			tasks: [{
+				id: "60A57CB6DFF18F37"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "3B84285816199EE2"
+			tasks: [{
+				id: "7D9B36027095B551"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["092A4FEA3A20F7DF"]
+			id: "5618EC002985FDFB"
+			rewards: [{
+				id: "12D6909BE4BA345B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2779CCEEBD9E764B"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["092A4FEA3A20F7DF"]
+			id: "5257DECE33DC7DD7"
+			rewards: [{
+				id: "2715C06CE71AC831"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11CF70FFA8BF7CDD"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["092A4FEA3A20F7DF"]
+			id: "7FCF545E267F4093"
+			rewards: [{
+				id: "42936BE50C12289D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7996A1E484647D04"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5257DECE33DC7DD7"]
+			id: "5638D291D8E742EC"
+			tasks: [{
+				id: "1C45298411667706"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "Mekanism"
+}

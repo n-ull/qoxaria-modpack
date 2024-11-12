@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice__fire"
+	group: "0D2F22CC4C1ABD8C"
+	icon: "iceandfire:dragon_skull_fire"
+	id: "496DC8F8164EE10C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "03A73F7CF488A611"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "3A3B54C420F03375"
+			table_id: 6309998300171541558L
+			type: "random"
+		}]
+		tasks: [{
+			entity: "iceandfire:fire_dragon"
+			icon: "iceandfire:dragon_skull_fire"
+			id: "69300FD04C2D395F"
+			title: "Mata a Un Dragon de Fuego"
+			type: "kill"
+			value: 1L
+		}]
+		x: -0.5d
+		y: -4.5d
+	}]
+	title: "Ice \\& Fire"
+}
