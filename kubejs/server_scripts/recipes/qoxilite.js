@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    e.recipes.create.mixing(Item.of('qoxaria:raw_qoxilite', 2), ['netherite_scrap', 'mekanism:osmium_ore']);
+    e.recipes.create.mixing(Item.of('qoxaria:raw_qoxilite', 2), ['netherite_scrap', 'mekanism:osmium_ore']).superheated();
 
     e.smelting(Item.of('qoxaria:ingot_qoxilite'), 'qoxaria:raw_qoxilite').xp(0.7);
     e.recipes.create.crushing(Item.of('qoxaria:dust_qoxilite', 2), 'qoxaria:raw_qoxilite');
