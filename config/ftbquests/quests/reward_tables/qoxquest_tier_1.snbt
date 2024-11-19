@@ -12,9 +12,8 @@
 		{ item: "qoxaria:moqox", weight: 0.1f }
 		{ item: "pointblank:m9", weight: 0.6f }
 		{ count: 6, item: "qoxaria:raw_qoxilite" }
-		{ count: 16, item: "minecraft:egg", weight: 2.0f }
 		{ item: "sophisticatedbackpacks:gold_backpack" }
-		{ count: 32, item: "farmersdelight:salmon_roll" }
+		{ count: 64, item: "farmersdelight:salmon_roll", weight: 2.0f }
 		{ item: "iceandfire:dragonegg_sapphire" }
 		{ item: "iceandfire:dragonegg_red" }
 	]

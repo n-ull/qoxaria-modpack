@@ -101,9 +101,9 @@
 			dependencies: ["40C6870220106543"]
 			id: "78B78EBBB16B0AC7"
 			rewards: [{
-				id: "145080F8BDBC143A"
+				id: "75D28E8348B888A5"
 				type: "xp"
-				xp: 50
+				xp: 20
 			}]
 			tasks: [{
 				id: "4CF3E8F1D280595A"
@@ -117,9 +117,9 @@
 			dependencies: ["40C6870220106543"]
 			id: "2F9FE375091BDC39"
 			rewards: [{
-				id: "5E1C4C09526DDFBA"
+				id: "0BF8E643635238F7"
 				type: "xp"
-				xp: 50
+				xp: 20
 			}]
 			tasks: [{
 				id: "61114A646BFA6479"
@@ -133,9 +133,9 @@
 			dependencies: ["40C6870220106543"]
 			id: "65DC7FC135B3FE99"
 			rewards: [{
-				id: "5CC75DAA65107BFE"
+				id: "09EF0ADA7776FBB3"
 				type: "xp"
-				xp: 50
+				xp: 20
 			}]
 			tasks: [{
 				id: "748FCF14311677A4"
@@ -149,9 +149,9 @@
 			dependencies: ["40C6870220106543"]
 			id: "7AF897731B1B5722"
 			rewards: [{
-				id: "3F08810255BF43CD"
+				id: "6DBB2B05D8324F0C"
 				type: "xp"
-				xp: 50
+				xp: 20
 			}]
 			tasks: [{
 				id: "1FC6FFB49A3C9F4C"

@@ -11,9 +11,9 @@
 		{
 			id: "2330936A2F680D6A"
 			rewards: [{
-				id: "7CE113C62FFCDAB3"
-				type: "xp_levels"
-				xp_levels: 100
+				id: "6D77A5E80742D7CD"
+				type: "xp"
+				xp: 20
 			}]
 			size: 2.0d
 			tasks: [{
@@ -28,9 +28,9 @@
 			dependencies: ["2330936A2F680D6A"]
 			id: "4D549283D47B8B28"
 			rewards: [{
-				id: "009C2221A982A252"
+				id: "229D2C6F99B2572F"
 				type: "xp"
-				xp: 100
+				xp: 20
 			}]
 			tasks: [{
 				id: "17DBD6354127EF36"
@@ -60,6 +60,12 @@
 		{
 			dependencies: ["50C0D009557828AA"]
 			id: "66413B9EADD04A72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "014BD9D8D1E414C0"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2AD273DB97D3185A"
 				item: "sophisticatedbackpacks:diamond_backpack"
@@ -87,9 +93,9 @@
 		{
 			id: "7BF5E646CBC7934B"
 			rewards: [{
-				id: "40940A73AD58E865"
+				id: "20E91290156AF618"
 				type: "xp"
-				xp: 50
+				xp: 25
 			}]
 			size: 2.0d
 			tasks: [{
@@ -104,9 +110,9 @@
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "76FE66811DF9B97B"
 			rewards: [{
-				id: "14EAA07BB10A8772"
+				id: "7AF59DA77407CC26"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "04351F9895E0852E"
@@ -140,9 +146,9 @@
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "194127B3222BBEE9"
 			rewards: [{
-				id: "65F3FC123BD96D7C"
+				id: "78ADD4D6029AB14D"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "3ECDF3D93C276DDF"
@@ -176,9 +182,9 @@
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "2B13EC9B7B620140"
 			rewards: [{
-				id: "6D572E4DFF062DFE"
+				id: "3ED3808D56E24AD5"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "0025154C34BBE9FA"
@@ -212,9 +218,9 @@
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "0EF6531FA9B3AA1E"
 			rewards: [{
-				id: "145525FB50983A8B"
+				id: "550C8E18C109C6D7"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "08D6360D5D3185B9"
@@ -248,9 +254,9 @@
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "12FBCE0E3CA45E37"
 			rewards: [{
-				id: "0B396F4612C8012F"
+				id: "7012CC21A6795C5C"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "338C71DE3939460D"
@@ -284,9 +290,9 @@
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "10DCF0EBD6C35CC3"
 			rewards: [{
-				id: "563F73C59505D43F"
+				id: "3FECB8311B71F682"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "67BB30B6C1346113"
@@ -303,9 +309,9 @@
 			]
 			id: "5C9DC849109FA742"
 			rewards: [{
-				id: "3D758A2FBB7AF14B"
+				id: "74E4C2C92FF8A902"
 				type: "xp"
-				xp: 75
+				xp: 25
 			}]
 			tasks: [{
 				id: "0EC57F34A31DAB9A"
@@ -325,7 +331,7 @@
 				{
 					id: "3F432B41070814AD"
 					type: "xp"
-					xp: 75
+					xp: 38
 				}
 				{
 					exclude_from_claim_all: true
@@ -351,7 +357,7 @@
 			rewards: [{
 				id: "68A4EEEA4C3820B2"
 				type: "xp"
-				xp: 75
+				xp: 50
 			}]
 			tasks: [{
 				id: "6C27D289E06FCF76"
@@ -383,11 +389,19 @@
 		{
 			dependencies: ["7BF5E646CBC7934B"]
 			id: "6E4B241FBC357319"
-			rewards: [{
-				id: "05E81E05AD59CB59"
-				type: "xp"
-				xp: 75
-			}]
+			rewards: [
+				{
+					id: "05E81E05AD59CB59"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DF413E518D556C4"
+					table_id: 6309998300171541558L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4F414B118DAB778C"
 				item: "sophisticatedbackpacks:everlasting_upgrade"

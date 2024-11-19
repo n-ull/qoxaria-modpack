@@ -129,6 +129,20 @@
 		}
 		{
 			id: "0F06B2C543068EBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05147BECDC91CF4F"
+					table_id: 8919896848438367757L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18EDFD3044944AA7"
+					table_id: 571305808173712429L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6C1028E1E22E1BB9"
 				item: "mekanism:basic_energy_cube"
@@ -139,6 +153,12 @@
 		}
 		{
 			id: "62C3131C465F3D3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7399CA035C20D2E1"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4191A5D456DE5233"
 				item: "mekanism:advanced_energy_cube"
@@ -149,6 +169,12 @@
 		}
 		{
 			id: "2B30392A7E191798"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AA97012318C3D82"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3101CA70A31655E0"
 				item: "mekanism:elite_energy_cube"
@@ -159,6 +185,20 @@
 		}
 		{
 			id: "167E7F62B4DA5E84"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B1156C94A231D0D"
+					table_id: 571305808173712429L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B3C1BDFD0FF5166"
+					table_id: 6309998300171541558L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5D45937D63D17380"
 				item: "mekanism:ultimate_energy_cube"
@@ -169,6 +209,12 @@
 		}
 		{
 			id: "1E8BE703C3F09DAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C113C4BD088A453"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "74A5B8F12BD9C7B4"
 				item: "mekanismgenerators:heat_generator"
@@ -179,6 +225,12 @@
 		}
 		{
 			id: "719887B80D453F44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101CE2695DDD2769"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3259D3DC86A353DC"
 				item: "mekanismgenerators:solar_generator"
@@ -189,6 +241,12 @@
 		}
 		{
 			id: "27B83B98782545C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77AB2EAC41DAE3CC"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3078341B6514DF73"
 				item: "mekanismgenerators:advanced_solar_generator"
@@ -199,6 +257,12 @@
 		}
 		{
 			id: "7FDC74EDF47A4253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E65424CED1C1BD4"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "58A658507F0DA8E4"
 				item: "mekanismgenerators:wind_generator"
@@ -209,6 +273,12 @@
 		}
 		{
 			id: "467BC1CD73AD4776"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "461881CD3EE0C66A"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "60A57CB6DFF18F37"
 				item: "mekanismgenerators:bio_generator"
@@ -219,6 +289,12 @@
 		}
 		{
 			id: "3B84285816199EE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76EA8EDF9C1B307E"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7D9B36027095B551"
 				item: "mekanismgenerators:gas_burning_generator"
@@ -233,7 +309,7 @@
 			rewards: [{
 				id: "12D6909BE4BA345B"
 				type: "xp"
-				xp: 100
+				xp: 20
 			}]
 			tasks: [{
 				id: "2779CCEEBD9E764B"
@@ -249,7 +325,7 @@
 			rewards: [{
 				id: "2715C06CE71AC831"
 				type: "xp"
-				xp: 100
+				xp: 20
 			}]
 			tasks: [{
 				id: "11CF70FFA8BF7CDD"
@@ -265,7 +341,7 @@
 			rewards: [{
 				id: "42936BE50C12289D"
 				type: "xp"
-				xp: 100
+				xp: 20
 			}]
 			tasks: [{
 				id: "7996A1E484647D04"

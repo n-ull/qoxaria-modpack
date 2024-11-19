@@ -3,9 +3,9 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ item: "qoxaria:nugget_applecite" }
+		{ item: "qoxaria:applecite_nugget" }
 		{ count: 2, item: "minecraft:diamond_block", random_bonus: 3 }
-		{ item: "minecraft:netherite_block" }
+		{ item: "minecraft:netherite_block", weight: 0.3f }
 	]
 	title: "Qoxquest Tier 2"
 }

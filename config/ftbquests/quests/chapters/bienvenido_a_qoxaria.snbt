@@ -90,7 +90,7 @@
 			rewards: [{
 				id: "1A38B6A1D6059F8C"
 				type: "xp"
-				xp: 100
+				xp: 15
 			}]
 			tasks: [{
 				id: "7375F0CEA15B9D48"
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "66B8FE993FAA43B2"
 				type: "xp"
-				xp: 50
+				xp: 15
 			}]
 			tasks: [{
 				id: "4C6C758F3D55F937"

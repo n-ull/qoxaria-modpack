@@ -1,13 +1,16 @@
 {
+	hide_tooltip: true
 	icon: "qoxaria:sugar_bag_tier1"
 	id: "7BC9D6EC8C4B960D"
 	loot_crate: {
-		color: 16777215
+		color: 16757511
 		drops: {
 			boss: 0
 			monster: 0
 			passive: 0
 		}
+		glow: 1b
+		item_name: "Sugar Bag Tier I"
 		string_id: "sugar_bag_tier_1"
 	}
 	loot_size: 1

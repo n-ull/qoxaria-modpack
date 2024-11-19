@@ -85,11 +85,19 @@
 			]
 			hide_until_deps_complete: true
 			id: "6F1E5441C281C254"
-			rewards: [{
-				id: "6193AF59357DE0EA"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "6193AF59357DE0EA"
+					type: "xp"
+					xp: 80
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52005023374DB92E"
+					table_id: 6309998300171541558L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "25A7D1773D0BDBA6"
 				title: "¿Applecite?"
@@ -139,6 +147,12 @@
 		{
 			dependencies: ["1E43E91D73D04ADF"]
 			id: "219FB6DE2319D0B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65E05B60A905FF0D"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7BD334B7ABF89475"
 				item: "mekaweapons:mekatana"
@@ -150,6 +164,12 @@
 		{
 			dependencies: ["1E43E91D73D04ADF"]
 			id: "37382C8546845340"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E4F1D109C1B6C06"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "131550E11399C0EE"
 				item: "mekaweapons:mekabow"
@@ -161,6 +181,12 @@
 		{
 			dependencies: ["1E43E91D73D04ADF"]
 			id: "45066F8030E10243"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28F97BD325044173"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4FE5A02884833EA9"
 				item: "mekanism:digital_miner"
@@ -172,6 +198,12 @@
 		{
 			dependencies: ["1E43E91D73D04ADF"]
 			id: "4C6585262F06BC74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A490FA23A515AEA"
+				table_id: 571305808173712429L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5C41C79C430AC656"
 				item: "mekanism:atomic_disassembler"
