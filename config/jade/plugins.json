@@ -87,7 +87,7 @@
     "placard": true
   },
   "lootr": {
-    "info": true
+    "info": false
   },
   "corpse": {
     "corpse": true

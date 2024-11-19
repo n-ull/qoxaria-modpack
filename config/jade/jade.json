@@ -20,15 +20,15 @@
     "previewOverlay": true
   },
   "overlay": {
-    "alpha": 0.7,
-    "iconMode": "TOP",
+    "alpha": 0.5,
+    "iconMode": "CENTERED",
     "animation": true,
     "disappearingDelay": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "overlayPosY": 1.0,
-    "overlayScale": 1.0,
+    "overlayScale": 0.81,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "activeTheme": "jade:dark",
