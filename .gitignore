@@ -10,3 +10,5 @@
 !/pointblank/*
 !/config
 !/config/*
+config/xaerominimap_entities.json
+config/xaerominimap.txt
